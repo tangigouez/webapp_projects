@@ -68,8 +68,8 @@ app.layout = html.Div([
         html.Div([
         dcc.Dropdown(id='piedropdown',
             options=[
-                     {'label': 'Deaths', 'value': 'deaths'},
-                     {'label': 'Cases', 'value': 'cases'}
+                     {'label': 'Deathos', 'value': 'deaths'},
+                     {'label': 'Caseos', 'value': 'cases'}
             ],
             value='cases',
             multi=False,
