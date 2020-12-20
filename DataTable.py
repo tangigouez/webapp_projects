@@ -56,8 +56,8 @@ app.layout = html.Div([
         html.Div([
             dcc.Dropdown(id='linedropdown',
                 options=[
-                         {'label': 'Deathz', 'value': 'deaths'},
-                         {'label': 'Casez', 'value': 'cases'}
+                         {'label': 'Deaths', 'value': 'deaths'},
+                         {'label': 'Cases', 'value': 'cases'}
                 ],
                 value='deaths',
                 multi=False,
